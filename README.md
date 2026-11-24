@@ -2,7 +2,7 @@
 
 [下载权重和推理配置](https://github.com/RobinwithLove/sayumi/releases/tag/jpextra-20261125)
 
-三套日语语音模型分别训练，适用于 [Style-Bert-VITS2 2.7.0 JP-Extra](https://github.com/litagin02/Style-Bert-VITS2/tree/2.7.0)。保留全部 29 份推理权重，文件名中的 `e` 表示训练轮数，`s` 表示训练步数。
+三套日语语音模型分别从 [JP-Extra 底模](https://huggingface.co/litagin/Style-Bert-VITS2-2.0-base-JP-Extra) 微调，适用于 [Style-Bert-VITS2 2.7.0 JP-Extra](https://github.com/litagin02/Style-Bert-VITS2/tree/2.7.0)。保留全部 29 份推理权重，文件名中的 `e` 表示训练轮数，`s` 表示训练步数。
 
 | 声线 | `model_assets` 下的目录 | 检查点 | 最终检查点 |
 | --- | --- | ---: | --- |
