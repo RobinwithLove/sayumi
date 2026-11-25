@@ -1,5 +1,14 @@
 # 纱由美 JP-Extra 语音模型
 
+## 里人格第二轮（2026-11-26）
+
+20 份推理权重、配套配置和里人格验证集排行已收录在仓库中。验证集综合分最高的是 e17 / s3519（0.914764），e20 / s4140 是训练最终存档。权重由 Git LFS 管理，每份可从对应文件页下载。
+
+- [模型目录与使用说明](model_assets/sayumi_private_jpextra_v2_20261126/)
+- [完整验证集排行 CSV](model_assets/sayumi_private_jpextra_v2_20261126/epoch_ranking.csv)
+
+## 首轮三种声线（2026-11-25）
+
 [下载权重和推理配置](https://github.com/RobinwithLove/sayumi/releases/tag/jpextra-20261125)
 
 三套日语语音模型分别从 [JP-Extra 底模](https://huggingface.co/litagin/Style-Bert-VITS2-2.0-base-JP-Extra) 微调，适用于 [Style-Bert-VITS2 2.7.0 JP-Extra](https://github.com/litagin02/Style-Bert-VITS2/tree/2.7.0)。保留全部 29 份推理权重，文件名中的 `e` 表示训练轮数，`s` 表示训练步数。

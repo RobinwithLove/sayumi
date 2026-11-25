@@ -1,0 +1,6 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+config.json -text
+style_vectors.npy binary
+epoch_ranking.csv -text whitespace=cr-at-eol
+README.md -text
+SHA256SUMS.txt -text
